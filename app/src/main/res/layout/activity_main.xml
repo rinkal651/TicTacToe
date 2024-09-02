@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingTop="?attr/actionBarSize">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <Button android:id="@+id/btn1" android:text="-" android:onClick="check" />
+        <Button android:id="@+id/btn2" android:text="-" android:layout_marginLeft="10dp"  android:onClick="check" />
+        <Button android:id="@+id/btn3" android:text="-" android:layout_marginLeft="10dp"  android:onClick="check" />
+        <Button android:id="@+id/btn4" android:text="-"  android:onClick="check" />
+        <Button android:id="@+id/btn5" android:text="-"  android:layout_marginLeft="10dp"  android:onClick="check" />
+        <Button android:id="@+id/btn6"  android:text="-" android:layout_marginLeft="10dp"  android:onClick="check" />
+        <Button android:id="@+id/btn7" android:text="-"  android:onClick="check"/>
+        <Button android:id="@+id/btn8" android:text="-" android:layout_marginLeft="10dp"  android:onClick="check" />
+        <Button android:id="@+id/btn9" android:text="-" android:layout_marginLeft="10dp" android:onClick="check" />
+    </GridLayout>
+
+</LinearLayout>
